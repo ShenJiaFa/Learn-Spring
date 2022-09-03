@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DI_Quickstart/DI_Quickstart.iml" filepath="$PROJECT_DIR$/DI_Quickstart/DI_Quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IOC_Quickstart/IOC_Quickstart.iml" filepath="$PROJECT_DIR$/IOC_Quickstart/IOC_Quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Learn-Spring.iml" filepath="$PROJECT_DIR$/Learn-Spring.iml" />
+    </modules>
+  </component>
+</project>
