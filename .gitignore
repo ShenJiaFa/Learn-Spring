@@ -1,3 +1,4 @@
 # Project exclude paths
 /DI_Quickstart/target/
 /IOC_Quickstart/target/
+/Base_Config/target/
