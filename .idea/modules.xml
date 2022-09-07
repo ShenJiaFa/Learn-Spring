@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Bean_Instance/Bean_Instance.iml" filepath="$PROJECT_DIR$/Bean_Instance/Bean_Instance.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bean_Lifecycle/Bean_Lifecycle.iml" filepath="$PROJECT_DIR$/Bean_Lifecycle/Bean_Lifecycle.iml" />
       <module fileurl="file://$PROJECT_DIR$/DI_Quickstart/DI_Quickstart.iml" filepath="$PROJECT_DIR$/DI_Quickstart/DI_Quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DI_Set/DI_Set.iml" filepath="$PROJECT_DIR$/DI_Set/DI_Set.iml" />
       <module fileurl="file://$PROJECT_DIR$/IOC_Quickstart/IOC_Quickstart.iml" filepath="$PROJECT_DIR$/IOC_Quickstart/IOC_Quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/Learn-Spring.iml" filepath="$PROJECT_DIR$/Learn-Spring.iml" />
     </modules>
