@@ -1,4 +1,4 @@
-package com.shenjiafa.di_quickstart.dao;
+package com.shenjiafa.dao;
 
 /**
  * Function: 用户数据持久层接口

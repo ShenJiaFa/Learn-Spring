@@ -1,7 +1,7 @@
-package com.shenjiafa.ioc_quickstart;
+package com.shenjiafa;
 
-import com.shenjiafa.ioc_quickstart.service.UserService;
-import com.shenjiafa.ioc_quickstart.service.impl.UserServiceImpl;
+import com.shenjiafa.service.UserService;
+import com.shenjiafa.service.impl.UserServiceImpl;
 
 /**
  * Function:

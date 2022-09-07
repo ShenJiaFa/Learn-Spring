@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/DI_Quickstart/pom.xml" />
         <option value="$PROJECT_DIR$/Base_Config/pom.xml" />
         <option value="$PROJECT_DIR$/Bean_Instance/pom.xml" />
+        <option value="$PROJECT_DIR$/Bean_Lifecycle/pom.xml" />
       </list>
     </option>
   </component>

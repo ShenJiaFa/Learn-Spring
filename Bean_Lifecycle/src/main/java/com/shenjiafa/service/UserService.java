@@ -1,4 +1,4 @@
-package com.shenjiafa.di_quickstart.service;
+package com.shenjiafa.service;
 
 /**
  * Function: 用户数据保存接口

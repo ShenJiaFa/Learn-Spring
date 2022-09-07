@@ -1,7 +1,6 @@
-package com.shenjiafa.ioc_quickstart;
+package com.shenjiafa;
 
-import com.shenjiafa.ioc_quickstart.dao.UserDao;
-import com.shenjiafa.ioc_quickstart.service.UserService;
+import com.shenjiafa.service.UserService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

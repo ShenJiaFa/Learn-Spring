@@ -1,6 +1,6 @@
-package com.shenjiafa.di_quickstart;
+package com.shenjiafa;
 
-import com.shenjiafa.di_quickstart.service.UserService;
+import com.shenjiafa.service.UserService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

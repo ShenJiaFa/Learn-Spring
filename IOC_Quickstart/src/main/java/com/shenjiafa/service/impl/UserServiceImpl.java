@@ -1,7 +1,8 @@
-package com.shenjiafa.di_quickstart.service.impl;
+package com.shenjiafa.service.impl;
 
-import com.shenjiafa.di_quickstart.dao.UserDao;
-import com.shenjiafa.di_quickstart.service.UserService;
+import com.shenjiafa.dao.UserDao;
+import com.shenjiafa.dao.impl.UserDaoImpl;
+import com.shenjiafa.service.UserService;
 
 /**
  * Function: 用户数据保存实现类
@@ -10,15 +11,11 @@ import com.shenjiafa.di_quickstart.service.UserService;
  * @since 2022/9/2
  */
 public class UserServiceImpl implements UserService {
-    private UserDao userDao;
+    private UserDao userDao=new UserDaoImpl();
 
     @Override
     public void save() {
         System.out.println("UserService save...");
         userDao.save();
-    }
-
-    public void setUserDao(UserDao userDao) {
-        this.userDao = userDao;
     }
 }

@@ -1,6 +1,6 @@
-package com.shenjiafa.ioc_quickstart.dao.impl;
+package com.shenjiafa.dao.impl;
 
-import com.shenjiafa.ioc_quickstart.dao.UserDao;
+import com.shenjiafa.dao.UserDao;
 
 /**
  * Function: 用户数据持久层实现类
