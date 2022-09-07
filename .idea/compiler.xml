@@ -6,18 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Bean_Lifecycle" />
         <module name="DI_Quickstart" />
         <module name="Base_Config" />
         <module name="DI_Set" />
         <module name="IOC_Quickstart" />
+        <module name="Bean_Lifecycle" />
         <module name="Bean_Instance" />
+        <module name="DI_Constructor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Base_Config" target="8" />
       <module name="Bean_Instance" target="8" />
       <module name="Bean_Lifecycle" target="8" />
+      <module name="DI_Constructor" target="8" />
       <module name="DI_Quickstart" target="8" />
       <module name="DI_Set" target="8" />
       <module name="IOC_Quickstart" target="8" />
