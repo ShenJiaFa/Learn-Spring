@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/DI_Constructor/DI_Constructor.iml" filepath="$PROJECT_DIR$/DI_Constructor/DI_Constructor.iml" />
       <module fileurl="file://$PROJECT_DIR$/DI_Quickstart/DI_Quickstart.iml" filepath="$PROJECT_DIR$/DI_Quickstart/DI_Quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/DI_Set/DI_Set.iml" filepath="$PROJECT_DIR$/DI_Set/DI_Set.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Datasource/Datasource.iml" filepath="$PROJECT_DIR$/Datasource/Datasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/IOC_Quickstart/IOC_Quickstart.iml" filepath="$PROJECT_DIR$/IOC_Quickstart/IOC_Quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/Learn-Spring.iml" filepath="$PROJECT_DIR$/Learn-Spring.iml" />
     </modules>

@@ -9,7 +9,4 @@
         <property name="databaseName" value="MySQL"/>
     </bean>
     <bean id="userService" autowire="byType" class="com.shenjiafa.service.impl.UserServiceImpl"/>
-
-
-
 </beans>

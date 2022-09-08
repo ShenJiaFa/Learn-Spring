@@ -5,6 +5,8 @@
       <option name="excludeList">
         <list>
           <option value="org.springframework:spring-context" />
+          <option value="com.alibaba:druid" />
+          <option value="mysql:mysql-connector-java" />
         </list>
       </option>
     </inspection_tool>

@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Datasource" />
         <module name="DI_Quickstart" />
         <module name="Base_Config" />
         <module name="DI_Set" />
@@ -21,6 +22,7 @@
       <module name="Base_Config" target="8" />
       <module name="Bean_Instance" target="8" />
       <module name="Bean_Lifecycle" target="8" />
+      <module name="Datasource" target="8" />
       <module name="DI_AutoWare" target="8" />
       <module name="DI_Collection" target="8" />
       <module name="DI_Constructor" target="8" />
