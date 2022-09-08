@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="bookDao" class="com.shenjiafa.dao.impl.BookDaoImpl">
+        <property name="myArray">
+            <array>
+                <value>1</value>
+                <value>2</value>
+                <value>3</value>
+            </array>
+        </property>
+        <property name="myList">
+            <list>
+                <value>"周安东"</value>
+                <value>"小特波"</value>
+                <value>"喷火娃"</value>
+            </list>
+        </property>
+        <property name="mySet">
+            <set>
+                <value>"周安东"</value>
+                <value>"小特波"</value>
+                <value>"喷火娃"</value>
+            </set>
+        </property>
+        <property name="myMap">
+            <map>
+                <entry key="name" value="周安东"/>
+                <entry key="gender" value="男"/>
+                <entry key="age" value="8"/>
+            </map>
+        </property>
+        <property name="myProperties">
+            <props>
+                <prop key="name">"周安东"</prop>
+                <prop key="gender">"男"</prop>
+                <prop key="age">"8"</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

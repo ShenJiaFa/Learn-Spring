@@ -9,6 +9,7 @@
         <module name="DI_Quickstart" />
         <module name="Base_Config" />
         <module name="DI_Set" />
+        <module name="DI_Collection" />
         <module name="IOC_Quickstart" />
         <module name="DI_AutoWare" />
         <module name="Bean_Lifecycle" />
@@ -21,6 +22,7 @@
       <module name="Bean_Instance" target="8" />
       <module name="Bean_Lifecycle" target="8" />
       <module name="DI_AutoWare" target="8" />
+      <module name="DI_Collection" target="8" />
       <module name="DI_Constructor" target="8" />
       <module name="DI_Quickstart" target="8" />
       <module name="DI_Set" target="8" />
