@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Base_Config/Base_Config.iml" filepath="$PROJECT_DIR$/Base_Config/Base_Config.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bean_Instance/Bean_Instance.iml" filepath="$PROJECT_DIR$/Bean_Instance/Bean_Instance.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bean_Lifecycle/Bean_Lifecycle.iml" filepath="$PROJECT_DIR$/Bean_Lifecycle/Bean_Lifecycle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Container/Container.iml" filepath="$PROJECT_DIR$/Container/Container.iml" />
       <module fileurl="file://$PROJECT_DIR$/DI_Autoware/DI_AutoWare.iml" filepath="$PROJECT_DIR$/DI_Autoware/DI_AutoWare.iml" />
       <module fileurl="file://$PROJECT_DIR$/DI_Collection/DI_Collection.iml" filepath="$PROJECT_DIR$/DI_Collection/DI_Collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/DI_Constructor/DI_Constructor.iml" filepath="$PROJECT_DIR$/DI_Constructor/DI_Constructor.iml" />
