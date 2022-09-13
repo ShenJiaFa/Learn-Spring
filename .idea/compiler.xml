@@ -15,11 +15,13 @@
         <module name="IOC_Quickstart" />
         <module name="DI_AutoWare" />
         <module name="Bean_Lifecycle" />
+        <module name="Annotation_Bean" />
         <module name="Bean_Instance" />
         <module name="DI_Constructor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Annotation_Bean" target="8" />
       <module name="Base_Config" target="8" />
       <module name="Bean_Instance" target="8" />
       <module name="Bean_Lifecycle" target="8" />
