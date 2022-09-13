@@ -7,21 +7,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Datasource" />
-        <module name="DI_Quickstart" />
         <module name="Base_Config" />
-        <module name="DI_Set" />
-        <module name="Container" />
         <module name="DI_Collection" />
         <module name="IOC_Quickstart" />
-        <module name="DI_AutoWare" />
-        <module name="Bean_Lifecycle" />
         <module name="Annotation_Bean" />
         <module name="Bean_Instance" />
         <module name="DI_Constructor" />
+        <module name="Annotation_Bean_Manager" />
+        <module name="DI_Quickstart" />
+        <module name="DI_Set" />
+        <module name="Container" />
+        <module name="DI_AutoWare" />
+        <module name="Bean_Lifecycle" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Annotation_Bean" target="8" />
+      <module name="Annotation_Bean_Manager" target="8" />
       <module name="Base_Config" target="8" />
       <module name="Bean_Instance" target="8" />
       <module name="Bean_Lifecycle" target="8" />

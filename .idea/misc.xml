@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/Datasource/pom.xml" />
         <option value="$PROJECT_DIR$/Container/pom.xml" />
         <option value="$PROJECT_DIR$/Annotation_Bean/pom.xml" />
+        <option value="$PROJECT_DIR$/Annotation_Bean_Manager/pom.xml" />
       </list>
     </option>
   </component>
