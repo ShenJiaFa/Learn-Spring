@@ -13,6 +13,7 @@
         <module name="Annotation_Bean" />
         <module name="Bean_Instance" />
         <module name="DI_Constructor" />
+        <module name="Annotation_DI" />
         <module name="Annotation_Bean_Manager" />
         <module name="DI_Quickstart" />
         <module name="DI_Set" />
@@ -24,6 +25,7 @@
     <bytecodeTargetLevel>
       <module name="Annotation_Bean" target="8" />
       <module name="Annotation_Bean_Manager" target="8" />
+      <module name="Annotation_DI" target="8" />
       <module name="Base_Config" target="8" />
       <module name="Bean_Instance" target="8" />
       <module name="Bean_Lifecycle" target="8" />
