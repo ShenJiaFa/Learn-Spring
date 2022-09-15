@@ -11,6 +11,7 @@
         <module name="DI_Collection" />
         <module name="IOC_Quickstart" />
         <module name="Annotation_Third_Bean_Manager" />
+        <module name="Spring_Junit" />
         <module name="Annotation_Bean" />
         <module name="Bean_Instance" />
         <module name="DI_Constructor" />
@@ -40,6 +41,7 @@
       <module name="DI_Quickstart" target="8" />
       <module name="DI_Set" target="8" />
       <module name="IOC_Quickstart" target="8" />
+      <module name="Spring_Junit" target="8" />
       <module name="Spring_Mybatis" target="8" />
     </bytecodeTargetLevel>
   </component>

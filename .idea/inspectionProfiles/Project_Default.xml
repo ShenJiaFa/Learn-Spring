@@ -8,6 +8,10 @@
           <option value="com.alibaba:druid" />
           <option value="mysql:mysql-connector-java" />
           <option value="org.mybatis:mybatis" />
+          <option value="org.mybatis:mybatis-spring" />
+          <option value="org.springframework:spring-jdbc" />
+          <option value="junit:junit" />
+          <option value="org.springframework:spring-test" />
         </list>
       </option>
     </inspection_tool>

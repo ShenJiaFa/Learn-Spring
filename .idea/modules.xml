@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/Datasource/Datasource.iml" filepath="$PROJECT_DIR$/Datasource/Datasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/IOC_Quickstart/IOC_Quickstart.iml" filepath="$PROJECT_DIR$/IOC_Quickstart/IOC_Quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/Learn-Spring.iml" filepath="$PROJECT_DIR$/Learn-Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Junit/Spring_Junit.iml" filepath="$PROJECT_DIR$/Spring_Junit/Spring_Junit.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring_Mybatis/Spring_Mybatis.iml" filepath="$PROJECT_DIR$/Spring_Mybatis/Spring_Mybatis.iml" />
     </modules>
   </component>
