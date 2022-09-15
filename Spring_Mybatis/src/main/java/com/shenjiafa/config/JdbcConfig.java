@@ -1,7 +1,6 @@
 package com.shenjiafa.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import com.shenjiafa.dao.UserDao;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 
@@ -15,18 +14,17 @@ import javax.sql.DataSource;
  */
 public class JdbcConfig {
 
-    @Value("com.mysql.cj.jdbc.Driver")
+    @Value("${jdbc.driver}")
     private String name;
-    @Value("jdbc:mysql://localhost:3306/xxx_db")
+    @Value("${jdbc.url}")
     private String url;
-    @Value("root")
+    @Value("${jdbc.username}")
     private String user;
-    @Value("root")
+    @Value("${jdbc.password}")
     private String password;
 
     @Bean
-    public DataSource dataSource(UserDao userDao) {
-        System.out.println(userDao);
+    public DataSource dataSource() {
         DruidDataSource druidDataSource = new DruidDataSource();
         druidDataSource.setDriverClassName(name);
         druidDataSource.setUrl(url);

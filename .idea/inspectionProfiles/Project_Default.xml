@@ -7,6 +7,7 @@
           <option value="org.springframework:spring-context" />
           <option value="com.alibaba:druid" />
           <option value="mysql:mysql-connector-java" />
+          <option value="org.mybatis:mybatis" />
         </list>
       </option>
     </inspection_tool>

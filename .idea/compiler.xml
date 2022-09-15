@@ -21,6 +21,7 @@
         <module name="Container" />
         <module name="DI_AutoWare" />
         <module name="Bean_Lifecycle" />
+        <module name="Spring_Mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -39,6 +40,7 @@
       <module name="DI_Quickstart" target="8" />
       <module name="DI_Set" target="8" />
       <module name="IOC_Quickstart" target="8" />
+      <module name="Spring_Mybatis" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

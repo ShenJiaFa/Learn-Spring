@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shenjiafa.mapper.AccountMapper">
+
+    <select id="findAll" resultType="Account">
+        select *
+        from t_account
+    </select>
+
+    <select id="findById" resultType="Account">
+        select *
+        from t_account
+        where id = #{id}
+    </select>
+
+    <insert id="save">
+        insert into t_account (id, name, money)
+        values (#{id}, #{name}, #{money});
+    </insert>
+
+    <update id="update">
+        update t_account
+        set id=#{id},
+            name=#{name},
+            money=#{money}
+        where id = #{id}
+    </update>
+
+    <delete id="delete">
+        delete
+        from t_account
+        where id = #{id}
+    </delete>
+
+</mapper>
