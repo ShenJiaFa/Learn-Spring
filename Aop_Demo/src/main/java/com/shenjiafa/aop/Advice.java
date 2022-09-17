@@ -1,5 +1,7 @@
 package com.shenjiafa.aop;
 
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
@@ -15,11 +17,18 @@ import org.springframework.stereotype.Component;
 @Aspect
 public class Advice {
     @Pointcut("execution(void com.shenjiafa.dao.UserDao.*())")
-    private void point(){}
+    private void point() {
+    }
 
-    @Before("point()")
-    void method() {
+    @Around("point()")
+    public Object method(ProceedingJoinPoint proceedingJoinPoint) throws Throwable {
         long start = System.currentTimeMillis();
-        System.out.println(start);
+        Object ret = null;
+        for (int i = 0; i < 10000; i++) {
+            ret = proceedingJoinPoint.proceed();
+        }
+        long end = System.currentTimeMillis();
+        System.out.println("万次执行时间:"+(end - start));
+        return ret;
     }
 }

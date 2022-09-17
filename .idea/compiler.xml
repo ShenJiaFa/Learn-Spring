@@ -21,6 +21,7 @@
         <module name="DI_Set" />
         <module name="Container" />
         <module name="DI_AutoWare" />
+        <module name="AOP_Advice_Type" />
         <module name="Bean_Lifecycle" />
         <module name="Spring_Mybatis" />
         <module name="Aop_Demo" />
@@ -31,6 +32,7 @@
       <module name="Annotation_Bean_Manager" target="8" />
       <module name="Annotation_DI" target="8" />
       <module name="Annotation_Third_Bean_Manager" target="8" />
+      <module name="AOP_Advice_Type" target="8" />
       <module name="Aop_Demo" target="8" />
       <module name="Base_Config" target="8" />
       <module name="Bean_Instance" target="8" />
