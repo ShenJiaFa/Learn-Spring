@@ -14,7 +14,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Aspect
 public class Advice {
-    @Pointcut("execution(void com.shenjiafa.dao.UserDao.save())")
+    @Pointcut("execution(void com.shenjiafa.dao.UserDao.*())")
     private void point(){}
 
     @Before("point()")

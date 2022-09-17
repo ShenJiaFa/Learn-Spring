@@ -16,5 +16,7 @@ public class RunAppShowAopDemo {
         UserDao userDao = annotationConfigApplicationContext.getBean(UserDao.class);
         userDao.save();
         userDao.update();
+        System.out.println(userDao);
+        System.out.println(userDao.getClass());
     }
 }

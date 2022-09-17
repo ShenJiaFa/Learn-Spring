@@ -18,8 +18,6 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public void update() {
-        long start = System.currentTimeMillis();
-        System.out.println(start);
         System.out.println("UserDao update...");
     }
 }
