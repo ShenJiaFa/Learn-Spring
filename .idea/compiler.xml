@@ -25,6 +25,7 @@
         <module name="AOP_Demo" />
         <module name="Bean_Lifecycle" />
         <module name="Spring_Mybatis" />
+        <module name="Case_Interface_Run_Speed" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +38,7 @@
       <module name="Base_Config" target="8" />
       <module name="Bean_Instance" target="8" />
       <module name="Bean_Lifecycle" target="8" />
+      <module name="Case_Interface_Run_Speed" target="8" />
       <module name="Container" target="8" />
       <module name="Datasource" target="8" />
       <module name="DI_AutoWare" target="8" />
