@@ -1,6 +1,5 @@
-package com.shenjiafa;
+package com.shenjiafa.dao;
 
-import com.shenjiafa.service.UserService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -10,10 +9,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * @author ShenJiaFa
  * @since 2022/9/7
  */
-public class RunAppShowDiConstructor {
+public class RunAppShowDICollection {
     public static void main(String[] args) {
         ApplicationContext applicationContext=new ClassPathXmlApplicationContext("application-context.xml");
-        UserService userService = (UserService) applicationContext.getBean("userService");
-        userService.save();
+        BookDao bookDao = (BookDao) applicationContext.getBean("bookDao");
+        bookDao.save();
     }
 }

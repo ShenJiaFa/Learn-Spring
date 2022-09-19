@@ -10,7 +10,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * @author ShenJiaFa
  * @since 2022/9/7
  */
-public class RunAppShowDiSet {
+public class RunAppShowDIConstructor {
     public static void main(String[] args) {
         ApplicationContext applicationContext=new ClassPathXmlApplicationContext("application-context.xml");
         UserService userService = (UserService) applicationContext.getBean("userService");
