@@ -3,11 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AOP_Advice_Type/AOP_Advice_Type.iml" filepath="$PROJECT_DIR$/AOP_Advice_Type/AOP_Advice_Type.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aop_Demo/AOP_Demo.iml" filepath="$PROJECT_DIR$/Aop_Demo/AOP_Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Annotation_Bean/Annotation_Bean.iml" filepath="$PROJECT_DIR$/Annotation_Bean/Annotation_Bean.iml" />
       <module fileurl="file://$PROJECT_DIR$/Annotation_Bean_Manager/Annotation_Bean_Manager.iml" filepath="$PROJECT_DIR$/Annotation_Bean_Manager/Annotation_Bean_Manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/Annotation_DI/Annotation_DI.iml" filepath="$PROJECT_DIR$/Annotation_DI/Annotation_DI.iml" />
       <module fileurl="file://$PROJECT_DIR$/Annotation_Third_Bean_Manager/Annotation_Third_Bean_Manager.iml" filepath="$PROJECT_DIR$/Annotation_Third_Bean_Manager/Annotation_Third_Bean_Manager.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Aop_Demo/Aop_Demo.iml" filepath="$PROJECT_DIR$/Aop_Demo/Aop_Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Base_Config/Base_Config.iml" filepath="$PROJECT_DIR$/Base_Config/Base_Config.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bean_Instance/Bean_Instance.iml" filepath="$PROJECT_DIR$/Bean_Instance/Bean_Instance.iml" />
       <module fileurl="file://$PROJECT_DIR$/Bean_Lifecycle/Bean_Lifecycle.iml" filepath="$PROJECT_DIR$/Bean_Lifecycle/Bean_Lifecycle.iml" />
