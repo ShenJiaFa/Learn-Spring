@@ -10,7 +10,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * @author ShenJiaFa
  * @since 2022/9/15
  */
-public class RunAppSpringMybatisUseSpringConfigClass {
+public class RunAppSpringMybatis {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext annotationConfigApplicationContext = new AnnotationConfigApplicationContext(SpringConfig.class);
         AccountService accountService = annotationConfigApplicationContext.getBean(AccountService.class);

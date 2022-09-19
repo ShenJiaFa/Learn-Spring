@@ -1,4 +1,4 @@
-package com.shenjiafa.model;
+package com.shenjiafa.domain;
 
 /**
  * Function:

@@ -1,6 +1,7 @@
-package com.shenjiafa.service;
+package com.shenjiafa.mapper;
 
-import com.shenjiafa.pojo.Account;
+import com.shenjiafa.domain.Book;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -10,13 +11,15 @@ import java.util.List;
  * @author ShenJiaFa
  * @since 2022/9/14
  */
-public interface AccountService {
+@Repository
+public interface BookMapper {
+
     /**
      * 添加账户
      *
-     * @param account 账户
+     * @param book 账户
      */
-    void save(Account account);
+    void save(Book book);
 
     /**
      * 删除账户
@@ -28,21 +31,22 @@ public interface AccountService {
     /**
      * 更新账户
      *
-     * @param account 账户
+     * @param book 账户
      */
-    void update(Account account);
+    void update(Book book);
 
     /**
      * 查询所有账户
      *
      * @return 账户列表
      */
-    List<Account> findAll();
+    List<Book> findAll();
 
     /**
      * 根据id查询账户
      *
      * @return 账户
      */
-    Account findById(Integer id);
+    Book findById(Integer id);
+
 }

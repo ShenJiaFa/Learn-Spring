@@ -1,7 +1,7 @@
 package com.shenjiafa.service.impl;
 
 import com.shenjiafa.mapper.AccountMapper;
-import com.shenjiafa.model.Account;
+import com.shenjiafa.domain.Account;
 import com.shenjiafa.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

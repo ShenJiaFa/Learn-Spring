@@ -1,6 +1,6 @@
 package com.shenjiafa.service;
 
-import com.shenjiafa.model.Account;
+import com.shenjiafa.domain.Account;
 
 import java.util.List;
 

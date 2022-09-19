@@ -1,4 +1,4 @@
-package com.shenjiafa.pojo;
+package com.shenjiafa.domain;
 
 /**
  * Function:
@@ -6,7 +6,7 @@ package com.shenjiafa.pojo;
  * @author ShenJiaFa
  * @since 2022/9/14
  */
-public class Account {
+public class Book {
     /**
      * id
      */
@@ -20,7 +20,7 @@ public class Account {
     /**
      * money
      */
-    private Double money;
+    private Double price;
 
     public Integer getId() {
         return id;
@@ -38,20 +38,20 @@ public class Account {
         this.name = name;
     }
 
-    public Double getMoney() {
-        return money;
+    public Double getPrice() {
+        return price;
     }
 
-    public void setMoney(Double money) {
-        this.money = money;
+    public void setPrice(Double price) {
+        this.price = price;
     }
 
     @Override
     public String toString() {
-        return "Account{" +
+        return "Book{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", money=" + money +
+                ", price=" + price +
                 '}';
     }
 }

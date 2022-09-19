@@ -1,6 +1,10 @@
 package com.shenjiafa.mapper;
 
-import com.shenjiafa.model.Account;
+import com.shenjiafa.domain.Account;
+import org.apache.ibatis.annotations.Delete;
+import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -19,6 +23,7 @@ public interface AccountMapper {
      *
      * @param account 账户
      */
+    @Insert("insert into t_account values(#{account.id},#{account.name},#{account.money})")
     void save(Account account);
 
     /**
@@ -26,6 +31,7 @@ public interface AccountMapper {
      *
      * @param id id
      */
+    @Delete("delete from t_account where id=#{id}")
     void delete(Integer id);
 
     /**
@@ -33,6 +39,7 @@ public interface AccountMapper {
      *
      * @param account 账户
      */
+    @Update("update t_account set name = #{account.name}, price = #{account.money} where id=#{account.id}")
     void update(Account account);
 
     /**
@@ -40,6 +47,7 @@ public interface AccountMapper {
      *
      * @return 账户列表
      */
+    @Select("select * from t_account")
     List<Account> findAll();
 
     /**
@@ -47,6 +55,7 @@ public interface AccountMapper {
      *
      * @return 账户
      */
+    @Select("select * from t_account where id=#{id}")
     Account findById(Integer id);
 
 }

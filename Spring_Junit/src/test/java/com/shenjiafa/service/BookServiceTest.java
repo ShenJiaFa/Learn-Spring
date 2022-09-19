@@ -15,18 +15,18 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = SpringConfig.class)
-public class AccountServiceTest {
+public class BookServiceTest {
     @Autowired
-    AccountService accountService;
+    BookService bookService;
 
     @Test
     public void testFindById() {
-        System.out.println(accountService.findById(1));
+        System.out.println(bookService.findById(1));
     }
 
     @Test
     public void testFindAll() {
-        System.out.println(accountService.findAll());
+        System.out.println(bookService.findAll());
     }
 
 }
