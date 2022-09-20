@@ -12,6 +12,7 @@
           <option value="org.springframework:spring-jdbc" />
           <option value="junit:junit" />
           <option value="org.springframework:spring-test" />
+          <option value="org.aspectj:aspectjweaver" />
         </list>
       </option>
     </inspection_tool>

@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/AOP_Demo/pom.xml" />
         <option value="$PROJECT_DIR$/AOP_Advice_Type/pom.xml" />
         <option value="$PROJECT_DIR$/Case_Interface_Run_Speed/pom.xml" />
+        <option value="$PROJECT_DIR$/AOP_Advice_Data/pom.xml" />
       </list>
     </option>
   </component>

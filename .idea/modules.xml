@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AOP_Advice_Data/AOP_Advice_Data.iml" filepath="$PROJECT_DIR$/AOP_Advice_Data/AOP_Advice_Data.iml" />
       <module fileurl="file://$PROJECT_DIR$/AOP_Advice_Type/AOP_Advice_Type.iml" filepath="$PROJECT_DIR$/AOP_Advice_Type/AOP_Advice_Type.iml" />
       <module fileurl="file://$PROJECT_DIR$/AOP_Demo/AOP_Demo.iml" filepath="$PROJECT_DIR$/AOP_Demo/AOP_Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Annotation_Bean/Annotation_Bean.iml" filepath="$PROJECT_DIR$/Annotation_Bean/Annotation_Bean.iml" />
