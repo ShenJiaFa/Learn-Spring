@@ -10,6 +10,7 @@
         <module name="Base_Config" />
         <module name="DI_Collection" />
         <module name="IOC_Quickstart" />
+        <module name="Case_Handle_Password" />
         <module name="Annotation_Third_Bean_Manager" />
         <module name="Spring_Junit" />
         <module name="Annotation_Bean" />
@@ -40,6 +41,7 @@
       <module name="Base_Config" target="8" />
       <module name="Bean_Instance" target="8" />
       <module name="Bean_Lifecycle" target="8" />
+      <module name="Case_Handle_Password" target="8" />
       <module name="Case_Interface_Run_Speed" target="8" />
       <module name="Container" target="8" />
       <module name="Datasource" target="8" />
