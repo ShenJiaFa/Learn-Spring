@@ -21,6 +21,7 @@
         <module name="DI_Quickstart" />
         <module name="DI_Set" />
         <module name="Container" />
+        <module name="Case_Transfer" />
         <module name="DI_AutoWare" />
         <module name="AOP_Advice_Type" />
         <module name="AOP_Demo" />
@@ -43,6 +44,7 @@
       <module name="Bean_Lifecycle" target="8" />
       <module name="Case_Handle_Password" target="8" />
       <module name="Case_Interface_Run_Speed" target="8" />
+      <module name="Case_Transfer" target="8" />
       <module name="Container" target="8" />
       <module name="Datasource" target="8" />
       <module name="DI_AutoWare" target="8" />

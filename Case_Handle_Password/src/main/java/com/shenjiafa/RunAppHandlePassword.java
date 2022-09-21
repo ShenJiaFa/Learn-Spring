@@ -14,10 +14,6 @@ public class RunAppHandlePassword {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(SpringConfig.class);
         ResourcesService resourcesService = applicationContext.getBean(ResourcesService.class);
-        if (resourcesService.openUrl("xxx.com", "root ")) {
-            System.out.println("正确");
-        } else {
-            System.out.println("错误");
-        }
+        System.out.println(resourcesService.openUrl("xxx.com", "root ") ? "正确" : "错误");
     }
 }
