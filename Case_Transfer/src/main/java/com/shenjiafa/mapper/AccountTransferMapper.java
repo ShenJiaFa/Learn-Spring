@@ -10,8 +10,7 @@ import org.springframework.stereotype.Repository;
  * @author ShenJiaFa
  * @since 2022/9/21
  */
-@Repository
-public interface AccountDao {
+public interface AccountTransferMapper {
 
     @Update("update t_account set money = money + #{money} where name=#{name}")
     void inMoney(@Param("name") String name, @Param("money") double money);
