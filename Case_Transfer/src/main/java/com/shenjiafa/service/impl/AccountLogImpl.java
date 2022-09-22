@@ -17,7 +17,6 @@ public class AccountLogImpl implements AccountLogService {
     @Autowired
     private AccountLogMapper accountLogMapper;
 
-
     @Override
     public void log(String in, String out, Double money) {
         accountLogMapper.log(out + "向" + in + "转账" + money + "元");

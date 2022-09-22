@@ -1,6 +1,8 @@
 package com.shenjiafa.service;
 
 import org.apache.ibatis.annotations.Param;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * Function:
@@ -9,5 +11,6 @@ import org.apache.ibatis.annotations.Param;
  * @since 2022/9/22
  */
 public interface AccountLogService {
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
     void log(String in, String out, Double money);
 }

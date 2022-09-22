@@ -20,10 +20,16 @@ public class AccountServiceImpl implements AccountService {
     private AccountTransferMapper accountTransferMapper;
     @Autowired
     private AccountLogService accountLogService;
+
     @Override
     public void transfer(String in, String out, Double money) {
-        accountLogService.log(in,out,money);
-        accountTransferMapper.outMoney(out,money);
-        accountTransferMapper.inMoney(in,money);
+
+        try {
+            accountTransferMapper.outMoney(out, money);
+            accountTransferMapper.inMoney(in, money);
+        } finally {
+            accountLogService.log(in, out, money);
+        }
+
     }
 }
