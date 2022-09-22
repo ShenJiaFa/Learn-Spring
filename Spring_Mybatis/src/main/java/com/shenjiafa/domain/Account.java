@@ -1,7 +1,7 @@
 package com.shenjiafa.domain;
 
 /**
- * Function:
+ * Function: 账户模型类
  *
  * @author ShenJiaFa
  * @since 2022/9/14
