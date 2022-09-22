@@ -28,7 +28,6 @@
         <module name="Bean_Lifecycle" />
         <module name="Spring_Mybatis" />
         <module name="Case_Interface_Run_Speed" />
-        <module name="SpringMVC_Quickstart" />
         <module name="AOP_Advice_Data" />
       </profile>
     </annotationProcessing>
@@ -56,7 +55,6 @@
       <module name="IOC_Quickstart" target="8" />
       <module name="Spring_Junit" target="8" />
       <module name="Spring_Mybatis" target="8" />
-      <module name="SpringMVC_Quickstart" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
