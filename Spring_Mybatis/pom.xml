@@ -38,7 +38,7 @@
             <artifactId>druid</artifactId>
             <version>1.1.12</version>
         </dependency>
-        <!--spring框架-->
+        <!--spring-jdbc框架-->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
